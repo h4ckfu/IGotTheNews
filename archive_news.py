@@ -23,3 +23,5 @@ for f in files:
         shutil.move(f, kw_dir)
     elif (f.startswith("crawl") or f.startswith("Crawl")):
         shutil.move(f, cr_dir)
+
+#tomorrow lets add moving the csv file to data/csv as well
