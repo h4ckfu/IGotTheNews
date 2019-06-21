@@ -9,6 +9,9 @@ import operator
 from time import sleep
 import logging
 
+# These are all just helper functions, I'm sure they can be done more efficently
+# I just hacked them together 
+
 def save_crawl(crawl_list, news_name):
   
     file_name = 'data/crawl_list-' + news_name +'.data'
@@ -77,6 +80,7 @@ if __name__ == "__main__":
 
     logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
+    # Make the Dictonary to feed to helper functions
     names_and_urls={"mother_jones": "https://www.motherjones.com/",
                 "infowars": "https://www.infowars.com/",
                 "usatoday": "https://www.usatoday.com/",
@@ -84,23 +88,30 @@ if __name__ == "__main__":
                 "fox_news": "https://www.foxnews.com/",
                 "nbc_news": "https://www.nbcnews.com/",
                 "drudge_report": "https://www.drudgereport.com/",
-                "huffpo": "https://www.huffingtonpost.com/",
+                # "huffpo": "https://www.huffingtonpost.com/",
+                # Make sure removeing this doesn't break things
+                # If not remove it for tomorrows run
                 "abc_news": "https://abcnews.go.com/",
                 "cnn": "http://cnn.com/",
                 "breitbart": "https://www.breitbart.com/"}
 
     c=0
 
+    # Iterate thro that dic
     for k, v in names_and_urls.items():
 
+        # An instance of newspaper with the url
         np_build = newspaper.build(v, language='zh')
 
+        # get the article urls and keywords
         crawl_list = get_articles(np_build)
         keyword_list = get_keywords(np_build)
-
+        
+        #save them
         save_crawl(crawl_list, k)
         save_keywords(keyword_list, k)
 
+        # Record Progress and Pause
         c += 1
         sleep(1)
 

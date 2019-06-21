@@ -40,7 +40,15 @@ try:
     new_df = ndf[~ndf['term'].isin(stop_list)]
 
     new_df.columns = ['id', 'total', 'term', sources[0], sources[1], sources[2], sources[3], sources[4], sources[5], sources[6], sources[7], sources[8], sources[9], ]
-    # tommorw lets fix the "ID" column - add .rank then set it to index
+    
+    # fixes the "ID" column - add .rank then set it to index
+
+    new_df = new_df.drop('id', axis = 1)
+    new_df['id'] = new_df['total'].rank(ascending=False)
+    new_df['id'] =  new_df['id'].astype(int)
+    new_df = new_df.set_index('id')
+
+    # end fix, remove comments tomorrow if no problems
 
     archive_date = str(strftime("%Y-%m-%d", gmtime())) + '.csv'
     new_df.to_csv(archive_date)
