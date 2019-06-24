@@ -25,13 +25,18 @@ def save_crawl(crawl_list, news_name):
 
 def save_keywords(keyword_list, news_name):
 
-    file_name = 'data/keyword_list-' + news_name +'.data'
-    flat_list = [i for row in keyword_list for i in row]
+    try:
+        file_name = 'data/keyword_list-' + news_name +'.data'
+        flat_list = [i for row in keyword_list for i in row]
 
-    with open(file_name, 'w') as out_f:
-        for li in flat_list:
-            w = "'" + li + "',"
-            out_f.write(w)
+        with open(file_name, 'w') as out_f:
+            for li in flat_list:
+                w = "'" + li + "',"
+                out_f.write(w)
+    except:
+        print (f'could not load {news_name}')
+        logging.error('save_keywords failed, prolly empty keyword list')
+
     pass
 
 

@@ -12,3 +12,8 @@ As of now the idea is to:
     run archive_news.py to clean up
 
 When I get this to the state where I am happy with it I'll make a igtn.py to run everything
+
+Problem: This won't run without the data directory...  I just didn't want to upload all that to github - make a temp working data dir.
+
+Time Zone errors - tzinfos argument
+
