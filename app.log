@@ -1,5 +1,4 @@
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.motherjones.com/feeds
-root - ERROR - save_keywords failed, prolly empty keyword list
 newspaper.network - CRITICAL - [REQUEST FAILED] 403 Client Error: Forbidden for url: https://assets.infowars.com/
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.infowars.com/feeds
 root - WARNING - Get Keywords Failed
@@ -85,6 +84,12 @@ root - WARNING - Get Keywords Failed
 root - WARNING - Get Keywords Failed
 root - WARNING - Get Keywords Failed
 root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://news.yahoo.com/feed
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://news.yahoo.com/feeds
 root - WARNING - Get Keywords Failed
@@ -98,15 +103,26 @@ root - WARNING - Get Keywords Failed
 root - WARNING - Get Keywords Failed
 root - WARNING - Get Keywords Failed
 root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
+root - WARNING - Get Keywords Failed
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: http://secure.nbcnews.com/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.nbcnews.com/feeds
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.nbcnews.com/feed
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.nbcnews.com/rss
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.nbcnews.com/feeds
-root - WARNING - Get Keywords Failed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.drudgereport.com/rss
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.drudgereport.com/feed
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.drudgereport.com/feeds
-root - WARNING - Get Keywords Failed
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.drudgereport.com/feed
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.drudgereport.com/rss
 root - WARNING - Get Keywords Failed
 root - WARNING - Get Keywords Failed
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://abcnews.go.com/feeds
@@ -114,58 +130,7 @@ newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for 
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://abcnews.go.com/feed
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: http://www.cnn.com/feeds
 newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: http://www.cnn.com/feed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
+jieba - DEBUG - Building prefix dict from /usr/local/lib/python3.6/dist-packages/jieba/dict.txt ...
+jieba - DEBUG - Dumping model to file cache /tmp/jieba.cache
+jieba - DEBUG - Loading model cost 1.5093605518341064 seconds.
+jieba - DEBUG - Prefix dict has been built succesfully.
