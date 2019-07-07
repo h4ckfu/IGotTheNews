@@ -14,7 +14,7 @@ import logging
 
 def save_crawl(crawl_list, news_name):
   
-    file_name = 'data/crawl_list-' + news_name +'.data'
+    file_name = 'data/crawl_list-' + news_name +'_alt.data'
 
     with open(file_name, 'w') as out_f:
         for li in crawl_list:
@@ -26,7 +26,7 @@ def save_crawl(crawl_list, news_name):
 def save_keywords(keyword_list, news_name):
 
     try:
-        file_name = 'data/keyword_list-' + news_name +'.data'
+        file_name = 'data/keyword_list-' + news_name +'_alt.data'
         flat_list = [i for row in keyword_list for i in row]
 
         with open(file_name, 'w') as out_f:
@@ -34,7 +34,7 @@ def save_keywords(keyword_list, news_name):
                 w = "'" + li + "',"
                 out_f.write(w)
     except:
-        print (f'could not load {news_name}')
+        print (f'could not load' {news_name})
         logging.error('save_keywords failed, prolly empty keyword list')
 
     pass
@@ -86,19 +86,14 @@ if __name__ == "__main__":
     logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
     # Make the Dictonary to feed to helper functions
-    names_and_urls={"mother_jones": "https://www.motherjones.com/",
-                "infowars": "https://www.infowars.com/",
-                "usatoday": "https://www.usatoday.com/",
-                "yahoo": "https://news.yahoo.com",
-                "fox_news": "https://www.foxnews.com/",
-                "nbc_news": "https://www.nbcnews.com/",
-                "drudge_report": "https://www.drudgereport.com/",
-                # "huffpo": "https://www.huffingtonpost.com/",
-                # Make sure removeing this doesn't break things
-                # If not remove it for tomorrows run
-                "abc_news": "https://abcnews.go.com/",
-                "cnn": "http://cnn.com/",
-                "breitbart": "https://www.breitbart.com/"}
+    names_and_urls={
+                "mashable": "http://mashable.com",
+                "cleveland": "http://www.cleveland.com",
+                "religious": "http://www.religionnews.com",
+                "sbnation": "http://www.sbnation.com",
+                "huffpo": "https://www.huffingtonpost.com/",
+                "atlantic": "http://theatlantic.com",
+                "telegram": "http://telegram.com"}
 
     c=0
 

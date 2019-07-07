@@ -1,136 +1,29 @@
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.motherjones.com/feeds
-newspaper.network - CRITICAL - [REQUEST FAILED] 403 Client Error: Forbidden for url: https://assets.infowars.com/
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.infowars.com/feeds
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://user.usatoday.com/
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: NOT FOUND for url: https://www.usatoday.com/errors/404
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: NOT FOUND for url: https://www.usatoday.com/errors/404
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: NOT FOUND for url: https://www.usatoday.com/errors/404
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://news.yahoo.com/feed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://news.yahoo.com/feeds
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: http://secure.nbcnews.com/
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.nbcnews.com/feeds
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.nbcnews.com/feed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.nbcnews.com/rss
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.drudgereport.com/feeds
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.drudgereport.com/feed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.drudgereport.com/rss
-root - WARNING - Get Keywords Failed
-root - WARNING - Get Keywords Failed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://abcnews.go.com/feeds
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://abcnews.go.com/rss
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://abcnews.go.com/feed
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: http://www.cnn.com/feeds
-newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: http://www.cnn.com/feed
-jieba - DEBUG - Building prefix dict from /usr/local/lib/python3.6/dist-packages/jieba/dict.txt ...
-jieba - DEBUG - Dumping model to file cache /tmp/jieba.cache
-jieba - DEBUG - Loading model cost 1.5093605518341064 seconds.
-jieba - DEBUG - Prefix dict has been built succesfully.
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Feed not found error: FeedBurner cannot locate this feed URI. for url: http://feeds.hbr.org/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://hbr.org/rss
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://hbr.org/feeds
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://hbr.org/feed
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Feed not found error: FeedBurner cannot locate this feed URI. for url: http://feeds.mashable.com/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://mashable.com/feeds
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://connect.cleveland.com/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.cleveland.com/rss/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.cleveland.com/feeds/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.cleveland.com/feed/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://religionnews.com/feeds
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.sbnation.com/feed
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.sbnation.com/feeds
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.sbnation.com/rss
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://ondemand.npr.org/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.npr.org/feed
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.npr.org/rss
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.npr.org/feeds
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.whosdatedwho.com/feeds
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.whosdatedwho.com/feed
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.whosdatedwho.com/rss
+root - ERROR - save_keywords failed, prolly empty keyword list
+root - WARNING - Get Keywords Failed
+newspaper.network - CRITICAL - [REQUEST FAILED] 403 Client Error: Forbidden for url: https://cdn.theatlantic.com/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.theatlantic.com/rss/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.theatlantic.com/feeds/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.theatlantic.com/feed/
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.telegram.com/feeds
+newspaper.network - CRITICAL - [REQUEST FAILED] 404 Client Error: Not Found for url: https://www.telegram.com/feed
